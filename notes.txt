@@ -1,0 +1,56 @@
+We have parentheses over some folders to omit the folder from the URL 
+
+Ex: 
+app 
+|-layout.ts
+|-(marketing)
+   |- about
+      |- page.ts
+   |- blog
+      |- page.ts
+|-(shops)
+   |-account
+      |- page.ts
+
+The url of the route to account is simply /account because we omit shop
+
+
+Use Clerk to manage sign ins
+Use strapeapi for payment
+
+To initialize this Next.js project:
+npx create-next-app@latest ./    (./ tells npx to create the application in the folder)
+Use Typescript
+Use ESLint
+Use Tailwind CSS
+don't use src/directory
+Use App Route
+Don't customixe import alias
+
+
+For Collections
+npm i react-hook-form zod
+
+Use shadcn
+npx shadcn-ui@latest add form
+
+Use Cloudinary to upload and store our images
+npm install next-cloudinary
+(look at next.cloudinary.dev for api)
+
+
+MongoDB database
+npm i mongoose
+npm install mongodb
+User: BenjaminYamWork pass: KyogaSuigetsu5
+
+
+Use toast to tell us colleciton is created/ error handling UI
+npm i react-hot-toast
+
+
+We need to "use client"
+In Next.js, the "use client" directive is used to explicitly indicate that a file or a part of the code should be executed on the client side (in the browser) instead of the server side. This is particularly important in a framework like Next.js that supports both server-side rendering (SSR) and static site generation (SSG), as well as client-side rendering (CSR).
+
+
+for Stripe API: https://docs.stripe.com/stripe-cli
